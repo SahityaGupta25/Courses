@@ -64,6 +64,7 @@ body{
 
 .training-items:hover{
     background-color: blue;
+    border-radius: 11px;
 
 }
 
@@ -86,13 +87,20 @@ body{
         border: none;
         border-radius: 0px;
         box-shadow: none;
-        background-color: azure;
-        color: black;
+        /* background-color: azure; */
+        /* color: black; */
         font-weight: bold;
         font-family: fantasy;
         
     }
     .training-items p{
-            background-color: yellow;
+            /* background-color: yellow; */
+            
+            font-weight: 300;
+    }
+    .training-items h3{
+            /* background-color: yellow; */
+
+            font-weight: 300;
     }
 }
